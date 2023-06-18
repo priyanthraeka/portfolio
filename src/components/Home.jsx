@@ -1,4 +1,4 @@
-import { BsGithub, BsLinkedin, BsTwitter } from "react-icons/bs";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 import profileImg from "../assets/0-removebg-preview.png";
 import Tilt from "react-parallax-tilt";
 import Card from "./Card";
@@ -10,7 +10,7 @@ const Home = () => {
       <ParticlesBg type="cobweb" bg={true} num={120} color="#000000" />
       <Card id="home">
         <div className="grid grid-rows-2 grid-cols-1 md:grid-rows-1 md:grid-cols-2 h-screen">
-          <div className="flex flex-col items-start lg:items-start justify-center">
+          <div className="flex flex-col items-start lg:items-start justify-center mt-[64px]">
             <h1 className="text-gray-950 font-bold flex flex-col gap-2">
               <span className="text-4xl">Halo,</span>
               <span className="text-4xl">Saya Eka Priyanthara</span>
@@ -26,13 +26,6 @@ const Home = () => {
               <a href="#">Hubungi Saya</a>
             </button>
             <div className="flex gap-3 mt-5">
-              <a
-                href="https://twitter.com/priyanthraeka"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <BsTwitter size={40} className="w-10 h-10" color="#1DA1F2" />
-              </a>
               <a
                 href="https://github.com/priyanthraeka"
                 rel="noreferrer"

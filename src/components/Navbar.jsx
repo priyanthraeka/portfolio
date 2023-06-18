@@ -20,7 +20,7 @@ const Navbar = () => {
     },
     {
       title: "Hubungi Saya",
-      link: "#",
+      link: "#contact",
     },
   ];
 

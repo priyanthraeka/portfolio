@@ -1,12 +1,12 @@
 import Card from "./Card";
 import profileImg from "../assets/0-removebg-preview.png";
 import Tilt from "react-parallax-tilt";
-import { BsEnvelope } from "react-icons/bs";
+import { BsEnvelope, BsPinMap } from "react-icons/bs";
 
 const About = () => {
   return (
     <Card id="about">
-      <div className="flex flex-col justify-start items-center pt-[64px]">
+      <div className="flex flex-col justify-start items-center py-[64px]">
         <h1 className="text-4xl font-bold ">Tentang Saya</h1>
         <div className="grid grid-rows-2 grid-cols-1 md:grid-rows-1 md:grid-cols-2 w-full mt-20 gap-10">
           <div className="flex items-center justify-center md:items-center">
@@ -24,13 +24,17 @@ const About = () => {
               Frontend Developer
             </p>
             <p className="text-base text-gray-600">
-              Saya adalah lulusan dari Institut Teknologi dan Bisnis STIKOM Bali
-              dengan jurusan Sistem Komputer. Saya memiliki minat bekerja
-              sebagai Frontend Developer.
+              Saya adalah lulusan fresh graduate dari Institut Teknologi dan
+              Bisnis STIKOM Bali dengan jurusan Sistem Komputer. Saya memiliki
+              minat bekerja sebagai Frontend Developer.
             </p>
             <div className="flex justify-center items-center gap-2 text-base text-gray-600">
               <BsEnvelope size={18} />
               <span>priyantharaeka067@gmail.com</span>
+            </div>
+            <div className="flex justify-center items-center gap-2 text-base text-gray-600">
+              <BsPinMap size={18} />
+              <span>Denpasar, Bali</span>
             </div>
             <button className="font-bold text-sm border border-blue-500 rounded-3xl px-4 py-2 mt-5 bg-blue-500 text-white">
               <a
@@ -38,7 +42,7 @@ const About = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                Resume Saya
+                Curriculum Vitae
               </a>
             </button>
           </div>

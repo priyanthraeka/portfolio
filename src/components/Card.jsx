@@ -3,7 +3,7 @@ const Card = (props) => {
   const { children, id } = props;
 
   return (
-    <div id={id} className="w-full px-5 md:px-20 lg:px-52 h-screen">
+    <div id={id} className="w-full px-5 md:px-20 lg:px-52">
       {children}
     </div>
   );

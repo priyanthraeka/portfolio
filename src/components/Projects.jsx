@@ -4,10 +4,10 @@ import { BsEye, BsCodeSlash } from "react-icons/bs";
 const Projects = () => {
   return (
     <Card id="projects">
-      <div className="flex flex-col justify-start items-center pt-[64px]">
+      <div className="flex flex-col justify-start items-center py-[64px]">
         <h1 className="text-4xl font-bold ">Projects</h1>
-        <div className="flex flex-wrap justify-center items-center w-full mt-20 gap-10 py-10">
-          <div className="w-[720px] p-5 border border-black rounded-lg">
+        <div className="flex flex-wrap justify-center items-center w-full gap-10 mt-20">
+          <div className="max-w-[720px] p-5 border border-black rounded-lg">
             <img
               src={weddingImg}
               alt="Wedding Website"
