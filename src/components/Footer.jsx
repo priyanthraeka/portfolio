@@ -8,17 +8,17 @@ import {
 
 const Footer = () => {
   return (
-    <div className="bg-[#212121] w-full h-52">
+    <div className="bg-[#212121] w-full min-h-52">
       <Card>
         <div className="flex flex-col md:flex-row md:justify-between py-5 gap-20">
           <div className="text-white">
             <h1 className="text-2xl">Portofolio Eka</h1>
             <p className="text-base mt-3">
-              Terimakasih telah mengunjungi website portofolio pribadi saya.
+              Terimakasih telah mengunjungi website pribadi saya.
             </p>
           </div>
           <div className="text-white">
-            <p className="text-2xl ">Contact Info</p>
+            <p className="text-2xl">Informasi Kontak</p>
             <div className="flex flex-col gap-2 mt-3">
               <p className="text-base flex items-center gap-2">
                 <BsTelephone size={18} />

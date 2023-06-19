@@ -7,7 +7,12 @@ import ParticlesBg from "particles-bg";
 const Home = () => {
   return (
     <>
-      <ParticlesBg type="cobweb" bg={true} num={120} color="#000000" />
+      <div className="md:hidden">
+        <ParticlesBg type="cobweb" bg={true} num={30} color="#000000" />
+      </div>
+      <div className="hidden md:block">
+        <ParticlesBg type="cobweb" bg={true} num={120} color="#000000" />
+      </div>
       <Card id="home">
         <div className="grid grid-rows-2 grid-cols-1 md:grid-rows-1 md:grid-cols-2 h-screen">
           <div className="flex flex-col items-start lg:items-start justify-center mt-[64px]">
@@ -23,7 +28,7 @@ const Home = () => {
               producing quality work.
             </p>
             <button className="font-bold text-base border border-blue-500 rounded-3xl px-4 py-2 mt-5 bg-blue-500 text-white">
-              <a href="#">Hubungi Saya</a>
+              <a href="#contact">Hubungi Saya</a>
             </button>
             <div className="flex gap-3 mt-5">
               <a

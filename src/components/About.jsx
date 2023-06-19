@@ -24,10 +24,11 @@ const About = () => {
               Frontend Developer
             </p>
             <p className="text-base text-gray-600">
-              Saya adalah fresh graduate dari Institut Teknologi dan Bisnis
+              Saya merupakan fresh graduate dari Institut Teknologi dan Bisnis
               STIKOM Bali dengan jurusan Sistem Komputer. Saya suka belajar hal
-              baru tentang teknologi untuk pengembangkan skill dan memiliki
-              minat dalam hal Web Development.
+              baru tentang teknologi untuk pengembangkan skill serta memiliki
+              minat dalam pemrograman dan sedang mencari kesempatan berkarir
+              sebagai Frontend Web Developer.
             </p>
             <div className="flex justify-center items-center gap-2 text-base text-gray-600">
               <BsEnvelope size={18} />
