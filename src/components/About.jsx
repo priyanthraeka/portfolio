@@ -6,7 +6,7 @@ import { BsEnvelope, BsPinMap } from "react-icons/bs";
 const About = () => {
   return (
     <Card id="about">
-      <div className="flex flex-col justify-start items-center py-[64px]">
+      <div className="flex flex-col justify-start items-center">
         <h1 className="text-4xl font-bold ">Tentang Saya</h1>
         <div className="grid grid-rows-2 grid-cols-1 md:grid-rows-1 md:grid-cols-2 w-full mt-20 gap-10">
           <div className="flex items-center justify-center md:items-center">
@@ -44,7 +44,7 @@ const About = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                Curriculum Vitae
+                Resume
               </a>
             </button>
           </div>

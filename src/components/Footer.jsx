@@ -1,7 +1,8 @@
-import Card from "./Card";
 import {
   BsEnvelope,
+  BsGithub,
   BsInstagram,
+  BsLinkedin,
   BsTelephone,
   BsTwitter,
 } from "react-icons/bs";
@@ -9,7 +10,7 @@ import {
 const Footer = () => {
   return (
     <div className="bg-[#212121] w-full min-h-52">
-      <Card>
+      <div className="w-full px-5 md:px-20 lg:px-52">
         <div className="flex flex-col md:flex-row md:justify-between py-5 gap-20">
           <div className="text-white">
             <h1 className="text-2xl">Portofolio Eka</h1>
@@ -43,11 +44,25 @@ const Footer = () => {
                 >
                   <BsInstagram className="w-5 h-5" />
                 </a>
+                <a
+                  href="https://github.com/priyanthraeka"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <BsGithub className="w-5 h-5" />
+                </a>
+                <a
+                  href="https://github.com/priyanthraeka"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <BsLinkedin className="w-5 h-5" />
+                </a>
               </div>
             </div>
           </div>
         </div>
-      </Card>
+      </div>
     </div>
   );
 };

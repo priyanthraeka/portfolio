@@ -15,6 +15,10 @@ const Navbar = () => {
       link: "#about",
     },
     {
+      title: "Pendidikan",
+      link: "#education",
+    },
+    {
       title: "Projects",
       link: "#projects",
     },

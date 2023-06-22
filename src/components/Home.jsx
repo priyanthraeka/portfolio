@@ -1,29 +1,28 @@
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import profileImg from "../assets/0-removebg-preview.png";
 import Tilt from "react-parallax-tilt";
-import Card from "./Card";
 import ParticlesBg from "particles-bg";
 
 const Home = () => {
   return (
     <>
-      <div className="md:hidden">
-        <ParticlesBg type="cobweb" bg={true} num={30} color="#000000" />
-      </div>
-      <div className="hidden md:block">
-        <ParticlesBg type="cobweb" bg={true} num={120} color="#000000" />
-      </div>
-      <Card id="home">
-        <div className="grid grid-rows-2 grid-cols-1 md:grid-rows-1 md:grid-cols-2 h-screen">
-          <div className="flex flex-col items-start lg:items-start justify-center mt-[64px]">
-            <h1 className="text-gray-950 font-bold flex flex-col gap-2">
-              <span className="text-4xl">Halo,</span>
-              <span className="text-4xl">Saya Eka Priyanthara</span>
+      <div className="w-full px-5 md:px-20 lg:px-52" id="home">
+        <div className="md:hidden">
+          <ParticlesBg type="cobweb" bg={true} num={30} color="#000000" />
+        </div>
+        <div className="hidden md:block">
+          <ParticlesBg type="cobweb" bg={true} num={120} color="#000000" />
+        </div>
+        <div className="grid grid-rows-2 grid-cols-1 md:grid-rows-1 md:grid-cols-2 py-[64px] h-screen">
+          <div className="flex flex-col items-start justify-center">
+            <h1 className="text-gray-950 font-bold flex flex-col gap-1">
+              <span className="text-3xl">Halo,</span>
+              <span className="text-3xl">Saya Eka Priyanthara</span>
             </h1>
-            <h2 className="text-3xl font-bold lg:text-2xl text-gray-700 mt-2">
+            <h2 className="text-2xl font-bold lg:text-2xl text-gray-700 mt-2">
               Frontend Developer
             </h2>
-            <p className="text-xl text-gray-600 mt-5 font-bold">
+            <p className="text-lg text-gray-600 mt-5 font-bold">
               High level experience in web design and development knowledge,
               producing quality work.
             </p>
@@ -53,7 +52,7 @@ const Home = () => {
             </Tilt>
           </div>
         </div>
-      </Card>
+      </div>
     </>
   );
 };
